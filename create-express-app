@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git clone git@github.com:harrisonmalone/create-express-app.git
+mv ./create-express-app ./$1
+cd $1
+rm -rf .git
+npm install
+echo "happy hacking 😊"
